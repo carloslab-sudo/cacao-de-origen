@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>News · Cacao de Origen</title>
+  <link rel="stylesheet" href="assets/styles.css"/>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand"><a href="index.html">Cacao de Origen · FONTAGRO</a></div>
+      <nav>
+        <a href="webinars.html">Webinars</a>
+        <a href="results.html">Results</a>
+        <a href="news.html">News</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" style="padding-top:24px">
+    <h1>News & Updates</h1>
+    <div class="list">
+      <article class="card">
+        <h3>Kickoff webinars completed</h3>
+        <p>We hosted two initial webinars for stakeholders across Central America. Recordings are available on the Webinars page.</p>
+        <p><small><time datetime="2025-08-01">Aug 1, 2025</time></small></p>
+      </article>
+
+      <article class="card">
+        <h3>Sampling campaign next steps</h3>
+        <p>Over the coming months we’ll publish maps and technical studies on sensory, chemistry, and microbiology.</p>
+        <p><small><time datetime="2025-08-12">Aug 12, 2025</time></small></p>
+      </article>
+    </div>
+  </main>
+  <footer class="container">
+    <div>© <span id="year"></span> Cacao de Origen · FONTAGRO — Universidad Nacional de Costa Rica (UNA)</div>
+    <div>Made with a minimalist static site on GitHub Pages.</div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
+  <script src="assets/script.js"></script>
+</body>
+</html>

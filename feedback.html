@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Feedback · Cacao de Origen</title>
+  <link rel="stylesheet" href="assets/styles.css"/>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand"><a href="index.html">Cacao de Origen · FONTAGRO</a></div>
+      <nav>
+        <a href="webinars.html">Webinars</a>
+        <a href="results.html">Results</a>
+        <a href="news.html">News</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" style="padding-top:24px">
+    <h1>Feedback</h1>
+    <p class="muted">We welcome suggestions from farmers and stakeholders. Paste a Google Form embed below to collect feedback.</p>
+    <!-- Replace the iframe below with your actual Google Forms embed (Send → <> Embed HTML) -->
+    <iframe class="form-embed" src="about:blank" title="Feedback form placeholder"></iframe>
+  </main>
+  <footer class="container">
+    <div>© <span id="year"></span> Cacao de Origen · FONTAGRO — Universidad Nacional de Costa Rica (UNA)</div>
+    <div>Made with a minimalist static site on GitHub Pages.</div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
+  <script src="assets/script.js"></script>
+</body>
+</html>

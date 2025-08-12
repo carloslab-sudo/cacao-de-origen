@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Webinars · Cacao de Origen</title>
+  <link rel="stylesheet" href="assets/styles.css"/>
+  <meta name="description" content="Recorded webinars and registration for Cacao de Origen — FONTAGRO & UNA."/>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand"><a href="index.html">Cacao de Origen · FONTAGRO</a></div>
+      <nav>
+        <a href="webinars.html">Webinars</a>
+        <a href="results.html">Results</a>
+        <a href="news.html">News</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" style="padding-top:24px">
+    <h1>Webinars</h1>
+    <p class="muted">Watch asynchronously. Please add your name and contact — this helps us demonstrate impact to FONTAGRO.</p>
+
+    <section class="grid">
+      <article class="card">
+        <h3>Webinar: Cacao de Origen (YouTube)</h3>
+        <figure>
+          <iframe class="video-embed" src="https://www.youtube.com/embed/iAM8adqFCqc" 
+            title="FONTAGRO Cacao de Origen Webinar" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </figure>
+        <p><small>Replace with additional videos as they’re published (YouTube/Vimeo). For Teams recordings, export to MP4 and upload to YouTube as Unlisted, then embed here.</small></p>
+      </article>
+    </section>
+
+    <section class="card" style="margin-top:16px">
+      <h3>Register your attendance</h3>
+      <p>Paste your <strong>Google Form embed code</strong> below (replace the placeholder iframe). This will collect names and contact info into a Google Sheet.</p>
+      <!-- Replace the iframe below with your actual Google Forms embed (Send → <> Embed HTML) -->
+      <iframe class="form-embed" src="about:blank" title="Registration form placeholder"></iframe>
+      <p><small>Tip: In Google Forms, click <em>Send</em> → <strong>&lt;&gt; Embed HTML</strong> → copy the <code>&lt;iframe&gt;</code> and paste it here.</small></p>
+    </section>
+  </main>
+  <footer class="container">
+    <div>© <span id="year"></span> Cacao de Origen · FONTAGRO — Universidad Nacional de Costa Rica (UNA)</div>
+    <div>Made with a minimalist static site on GitHub Pages.</div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
+  <script src="assets/script.js"></script>
+</body>
+</html>
